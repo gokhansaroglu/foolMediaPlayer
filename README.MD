@@ -4,11 +4,11 @@ Features
 
 1) Auto installation file (install.sh)
 2) Easy to configure config file 
-- Select USB Drive or internal storage as the media source. (usb=1 for usb usb=0 for internal storage /home/pi/videos/ )
-- Select audio output source (http://elinux.org/Omxplayer#Audio) (audio_output=hdmi local, hdmi or both)
+  - Select USB Drive or internal storage as the media source. (usb=1 for usb usb=0 for internal storage /home/pi/videos/ )
+  - Select audio output source (http://elinux.org/Omxplayer#Audio) (audio_output=hdmi local, hdmi or both)
 3) It can play supported filetypes using omxplayer (.mp4, .avi, .mkv, .mp3, .mov, .mpg, .flv, .m4v)
 4) It installs vsftpd automatically in this way you can easily upload your media files into USB drive without shutting down raspberry pi. All you need is learn IP address of raspberry pi from your router and just connect it through FTP using login credentials. Navigate to /media/USB folder and upload your media into it.
-Note: After uploading your media, just wait until raspberry pi plays old playlist. In next round, your new media should start playing.
+  Note: After uploading your media, just wait until raspberry pi plays old playlist. In next round, your new media should start playing.
 5) It starts automatically and loops forever! It doesn't require any command or etc.
 6) Low memory usage, mine is working nearly for 2 months! 
 7) Perfect for advertisement ;)
