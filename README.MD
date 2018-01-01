@@ -19,3 +19,19 @@ First source-code came from https://github.com/filo891/RPiVideoLooper this repos
 - Connect with ssh and navigate to the folder and execute sudo bash install.sh
 - Wait until you see a dialog with title x11-common configuring. Select anyone.
 - Thats it! Format a USB drive with NTFS support and plug it into pi. Reboot the raspberry pi and voila ;)  
+
+## Warning For Strech Users!
+
+sudo dpkg-reconfigure x11-common
+
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+
+Gives an error. To fix it;
+
+sudo apt-get install xserver-xorg-legacy -y
+
+sudo nano /etc/X11/Xwrapper.config
+
+#Change console to anybody
+
+allowed_users=anybody
