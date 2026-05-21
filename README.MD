@@ -1,4 +1,4 @@
-First source-code came from https://github.com/filo891/RPiVideoLooper this repostory but when I use it I realised it is little bit buggy and slow. I make it smoother and faster. It just become Fool-Proof Media Player :)
+First source-code came from https://github.com/filo891/RPiVideoLooper this repostory but when I use it I realised it is little bit buggy and slow. I make it smoother and faster. It just become Fool-Proof Media Player.
 
 ## Features
 
